@@ -27,7 +27,7 @@ This project includes a **Streamlit web app** for real-time predictions and a **
 ## 📊 Model Performance
 
 - Algorithm: **Multinomial Naive Bayes**  
-- Accuracy: ~**97%** on test dataset  
+- Accuracy: ~**95%** on test dataset  
 - Vectorization: **TF-IDF**  
 
 *(Check the Jupyter Notebook for detailed evaluation metrics and confusion matrix)*
@@ -75,8 +75,10 @@ The project was completed following these steps:
 
 ### **8️⃣ Deployment**
 - Created `requirements.txt` with dependencies  
-- Deployed app on **Render** using the following command:  
+- Deployed app on **Render** using:
+  ```
      streamlit run app.py --server.port 10000 --server.address 0.0.0.0
+  ````
 ----  
 ## 📁 Project Structure
 
@@ -92,4 +94,14 @@ sms_spam_classifier/
 - [app.py](https://github.com/diwakar221718/sms-Email_spam_classifier/blob/main/app.py) — Streamlit web app for real-time spam/ham prediction  
 - [requirements.txt](https://github.com/diwakar221718/sms-Email_spam_classifier/blob/main/requirements.txt) — Python dependencies for the project  
 - [README.md](https://github.com/diwakar221718/sms-Email_spam_classifier/blob/main/README.md) — Project description and instructions  
-- [spam_classifier.ipynb](https://github.com/diwakar221718/sms-Email_spam_classifier/blob/main/sms_spam_classifier.ipynb) — Jupyter Notebook with data exploration, preprocessing, model building, and evaluation  
+- [spam_classifier.ipynb](https://github.com/diwakar221718/sms-Email_spam_classifier/blob/main/sms_spam_classifier.ipynb) — Jupyter Notebook with data exploration, preprocessing, model building, and evaluation
+
+-----
+## 💻 Run Locally
+
+Follow these steps to run the project on your local machine:
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/diwakar221718/sms-Email_spam_classifier.git
+cd sms-Email_spam_classifier
