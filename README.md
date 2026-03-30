@@ -27,7 +27,8 @@ This project includes a **Streamlit web app** for real-time predictions and a **
 ## 📊 Model Performance
 
 - Algorithm: **Multinomial Naive Bayes**  
-- Accuracy: ~**95%** on test dataset  
+- Accuracy: ~**95%** on test dataset
+- Precision: **100%** 
 - Vectorization: **TF-IDF**  
 
 *(Check the Jupyter Notebook for detailed evaluation metrics and confusion matrix)*
